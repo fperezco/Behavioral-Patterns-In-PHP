@@ -1,0 +1,16 @@
+/**
+ * Class Duck
+ * An Abstract class to extend which have common method to implement by
+ * an specific way and custom behaviour to select in the child classes
+ * but rehusing this behaviours instead or re-implementing or copy-paste
+ * code
+ *
+ * ES:
+ * En este caso tenemos una clase padre abstracta con metodos comunes
+ * y otra serie de métodos y atributos que, a pesar de ser compartidos por
+ * muchas clases hijas no son comunes a todas, con este patrón de delegar
+ * los comportamientos especificos en interfaces y obligar a setearlos
+ * en la clases hijas, logramos esta flexibilidad multicomportamiento (composición) y a la
+ * vez no duplicar codigo ya que clases distintas pueden implementar comportamientos
+ * similares mediante interfaces
+ */
